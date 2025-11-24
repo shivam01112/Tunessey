@@ -2353,6 +2353,7 @@ textarea {
 
 .tg-header__top {
   padding: 9px 0;
+  background-color: #3c3b3b;
 }
 @media (max-width: 767.98px) {
   .tg-header__top {
@@ -2360,7 +2361,14 @@ textarea {
   }
 }
 .tg-header__top-menu {
-  padding: 0 30px;
+ padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icon-link li a{
+  color: #FFBA25 !important;
+  font-size: 14px !important;
 }
 .tg-header__top-menu .list-wrap {
   display: -webkit-box;
@@ -2370,7 +2378,7 @@ textarea {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  gap: 10px 38px;
+  gap: 10px 19px;
 }
 .tg-header__top-menu .list-wrap li {
   display: -webkit-box;
@@ -2379,13 +2387,13 @@ textarea {
   display: -webkit-flex;
   display: flex;
   align-items: center;
-  color: var(--tg-color-gray-1);
+  color: #ffba25;
   font-weight: 500;
   font-size: 14px;
   gap: 5px;
   position: relative;
 }
-.tg-header__top-menu .list-wrap li::before {
+/* .tg-header__top-menu .list-wrap li::before {
   content: "";
   position: absolute;
   right: -20px;
@@ -2394,12 +2402,12 @@ textarea {
   width: 2px;
   height: 14px;
   background: var(--tg-border-1);
-}
+} */
 .tg-header__top-menu .list-wrap li:last-child::before {
   display: none;
 }
 .tg-header__top-menu .list-wrap li a {
-  color: var(--tg-color-gray-1);
+  color: #fff;
 }
 .tg-header__top-menu .list-wrap li a:hover {
   opacity: 0.8;
@@ -3085,7 +3093,7 @@ textarea {
   bottom: 0;
   width: 52%;
   height: auto;
-  background: #5B5B5B;
+  background: #3c3b3b;
   z-index: -2;
   clip-path: ellipse(100% 91% at 104% 52%);
 }
@@ -4531,7 +4539,7 @@ textarea {
   align-items: center;
   justify-content: center;
   flex: 0 0 auto;
-  background: #5B5B5B;
+  background: #3c3b3b;
   -webkit-border-radius: 12px;
   -moz-border-radius: 12px;
   -o-border-radius: 12px;
@@ -5386,7 +5394,7 @@ textarea {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #5B5B5B;
+  background: #3c3b3b;
   font-size: 40px;
   color: var(--tg-theme-primary);
   -webkit-border-radius: 17px;
